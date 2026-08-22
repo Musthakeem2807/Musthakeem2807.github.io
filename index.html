@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#050712">
 <meta name="description" content="Muhammed Musthakeem — B.Tech IT Final Year | Aspiring Software Engineer">
-<title>Muhammed Musthakeem | 3D Portfolio • V2</title>
+<title>Muhammed Musthakeem | Aspiring Software Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -71,6 +71,17 @@ footer{padding:35px 0 55px;color:#69758b;text-align:center;font-size:12px;border
  .about-grid,.connect{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}.projects{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr 1fr}section{padding:90px 0}
 }
 @media(max-width:520px){h1{font-size:52px;letter-spacing:-3px}.hero-copy{font-size:16px}.skills{grid-template-columns:1fr 1fr}.stats{gap:8px}.stat{padding:15px}.stat b{font-size:23px}.glass{padding:22px}}
+
+.cert-grid{grid-template-columns:repeat(3,1fr);margin-top:42px}
+.cert-card{min-height:245px;display:flex;flex-direction:column;justify-content:space-between}
+.cert-card h3{font:700 21px "Space Grotesk";margin:16px 0 9px}
+.cert-card p{color:var(--muted);line-height:1.65;font-size:14px;flex:1}
+.cert-top{display:flex;align-items:center;justify-content:space-between}
+.cert-num{font:700 12px "Space Grotesk";color:#77839a}
+.cert-card .btn{margin-top:18px;width:max-content}
+@media(max-width:850px){.cert-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.cert-grid{grid-template-columns:1fr}}
+
 </style>
 
 <style id="extra-3d">
@@ -116,7 +127,7 @@ footer{padding:35px 0 55px;color:#69758b;text-align:center;font-size:12px;border
   <div class="reveal">
    <div class="eyebrow"><span class="dot"></span>B.Tech IT • Final Year • 2026</div>
    <h1>Hi, I'm<br><span class="grad">Muhammed<br>Musthakeem.</span></h1>
-   <p class="hero-copy">Information Technology student building a strong foundation in software development, programming and modern web technologies — with a goal to grow into a professional Software Engineer.</p>
+   <p class="hero-copy">Final-year Information Technology student focused on software engineering, programming fundamentals and modern web development. I enjoy learning by building practical projects and continuously improving my technical skills.</p>
    <div class="actions">
     <a class="btn primary" href="#connect">Let's Connect ↗</a>
     <a class="btn" href="#projects">Explore My Work ↓</a>
@@ -138,10 +149,10 @@ footer{padding:35px 0 55px;color:#69758b;text-align:center;font-size:12px;border
   <div class="section-kicker">01 • About</div><h2 class="section-title">A little about me.</h2>
   <p class="section-sub">Focused on learning by building, improving technical skills and preparing for a career in software engineering.</p>
   <div class="grid about-grid">
-   <div class="glass"><p class="about-text">I'm Muhammed Musthakeem, a B.Tech Information Technology student. I enjoy exploring programming, web development and practical technology. I'm continuously improving my problem-solving and communication skills while preparing for the next step in my career.</p>
+   <div class="glass"><p class="about-text">I'm Muhammed Musthakeem, a final-year B.Tech Information Technology student with a strong interest in software engineering and web development. I enjoy learning new technologies, solving problems and building practical solutions while preparing for a career in the software industry.</p>
     <div class="stats"><div class="stat"><b>7.74</b><span>CGPA</span></div><div class="stat"><b>IT</b><span>Specialization</span></div><div class="stat"><b>2026</b><span>Final Year</span></div></div>
    </div>
-   <div class="glass"><div class="section-kicker">Career Focus</div><h3 style="font:700 30px 'Space Grotesk';margin-bottom:12px">Software Engineering</h3><p class="about-text">Interested in turning ideas into useful software, strengthening programming fundamentals and working with real-world development tools.</p><div class="section-kicker" style="margin-top:25px">Currently Learning</div><p class="about-text">Programming, web development, Git/GitHub, project building and interview readiness.</p></div>
+   <div class="glass"><div class="section-kicker">Career Focus</div><h3 style="font:700 30px 'Space Grotesk';margin-bottom:12px">Software Engineering</h3><p class="about-text">Interested in turning ideas into useful software, strengthening programming fundamentals and gaining hands-on experience with real-world development tools.</p><div class="section-kicker" style="margin-top:25px">Currently Learning</div><p class="about-text">Programming, web development, Git/GitHub, project building and software-engineering interview preparation.</p></div>
   </div>
  </div>
 </section>
@@ -155,7 +166,7 @@ footer{padding:35px 0 55px;color:#69758b;text-align:center;font-size:12px;border
    <div class="glass skill"><div class="icon">C</div><strong>CSS</strong><small>Web</small></div>
    <div class="glass skill"><div class="icon">Git</div><strong>Git</strong><small>Version control</small></div>
    <div class="glass skill"><div class="icon">GH</div><strong>GitHub</strong><small>Collaboration</small></div>
-   <div class="glass skill"><div class="icon">Co</div><strong>Google Colab</strong><small>Development</small></div>
+   <div class="glass skill"><div class="icon">GC</div><strong>Google Colab</strong><small>Development</small></div>
    <div class="glass skill"><div class="icon">PS</div><strong>Problem Solving</strong><small>Core skill</small></div>
   </div>
  </div>
@@ -170,11 +181,11 @@ footer{padding:35px 0 55px;color:#69758b;text-align:center;font-size:12px;border
 </section>
 
 <section id="projects">
- <div class="container reveal"><div class="section-kicker">04 • Projects</div><h2 class="section-title">Work in progress.</h2><p class="section-sub">A growing space for real projects, GitHub repositories and practical demos.</p>
+ <div class="container reveal"><div class="section-kicker">04 • Projects</div><h2 class="section-title">Selected work.</h2><p class="section-sub">A growing collection of practical work, experiments and development projects. New projects will be added as they are completed and published.</p>
   <div class="grid projects">
    <article class="glass project"><div><span class="tag">PROJECT 01</span><h3>Personal Portfolio</h3><p>A responsive portfolio designed to present my skills, education, certifications and professional links with a 3D visual experience.</p></div><div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
-   <article class="glass project"><div><span class="tag">PROJECT 02</span><h3>Next Project</h3><p>Reserved for a practical software project with a clear problem statement, solution, GitHub repository and live demo.</p></div><div class="stack"><span>Build</span><span>Learn</span><span>Ship</span></div></article>
-   <article class="glass project"><div><span class="tag">PROJECT 03</span><h3>GitHub Showcase</h3><p>A curated collection of coding practice, experiments and future development work.</p></div><div class="stack"><span>GitHub</span><span>Code</span><span>Projects</span></div></article>
+   <article class="glass project"><div><span class="tag">CURRENTLY BUILDING</span><h3>Next Software Project</h3><p>Currently building the next practical software project. This space will be updated with the problem statement, implementation, GitHub repository and live demo once it is ready.</p></div><div class="stack"><span>Build</span><span>Learn</span><span>Ship</span></div></article>
+   <article class="glass project"><div><span class="tag">GITHUB</span><h3>Code & Experiments</h3><p>A growing collection of coding practice, experiments and future development work maintained on GitHub.</p></div><div class="stack"><span>GitHub</span><span>Code</span><span>Practice</span></div></article>
   </div>
  </div>
 </section>
@@ -182,19 +193,19 @@ footer{padding:35px 0 55px;color:#69758b;text-align:center;font-size:12px;border
 <section id="certifications">
  <div class="container reveal"><div class="section-kicker">05 • Certifications</div><h2 class="section-title">Credentials & achievements.</h2><p class="section-sub">A collection of certificates, participation credentials and learning achievements.</p>
   <div class="grid cert-grid">
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Certificate</span><span class="cert-num">01</span></div><h3>Participation / Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/certificate%20%281%29.png" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Certificate</span><span class="cert-num">02</span></div><h3>Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Certificate-3%20%281%29.png" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Certificate</span><span class="cert-num">03</span></div><h3>Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Certificate-4%20%281%29.png" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Infosys</span><span class="cert-num">04</span></div><h3>Infosys Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Infosys%20certificate%201.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Infosys</span><span class="cert-num">05</span></div><h3>Infosys Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Infosys%20Certificate%202.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Nasha Mukt</span><span class="cert-num">06</span></div><h3>Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/nasha_mukt_certificate.png" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naukri Campus</span><span class="cert-num">07</span></div><h3>AI NCAT Participation — May 2025</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/naukri_campus_ai_ncat_participation_may_2025%20%281%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">NCC A</span><span class="cert-num">08</span></div><h3>NCC A Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NCC%20A%20Cert%20.jpg" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">NCC B</span><span class="cert-num">09</span></div><h3>NCC B Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NCC%20B%20Cert.jpg" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">NCC C</span><span class="cert-num">10</span></div><h3>NCC C Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NCC%20C%20Cert.jpg" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naan Mudhalvan</span><span class="cert-num">11</span></div><h3>Naan Mudhalvan Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NM_Certificate%20%281%29%20%281%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naan Mudhalvan</span><span class="cert-num">12</span></div><h3>Naan Mudhalvan Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NM_Certificate%20%282%29%20%281%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
-   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naan Mudhalvan</span><span class="cert-num">13</span></div><h3>Naan Mudhalvan Certificate</h3><p>Credential included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NM_Certificate%20%283%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Certificate</span><span class="cert-num">01</span></div><h3>Participation / Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/certificate%20%281%29.png" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Certificate</span><span class="cert-num">02</span></div><h3>Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Certificate-3%20%281%29.png" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Certificate</span><span class="cert-num">03</span></div><h3>Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Certificate-4%20%281%29.png" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Infosys</span><span class="cert-num">04</span></div><h3>Infosys Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Infosys%20certificate%201.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Infosys</span><span class="cert-num">05</span></div><h3>Infosys Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/Infosys%20Certificate%202.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Nasha Mukt</span><span class="cert-num">06</span></div><h3>Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/nasha_mukt_certificate.png" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naukri Campus</span><span class="cert-num">07</span></div><h3>AI NCAT Participation — May 2025</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/naukri_campus_ai_ncat_participation_may_2025%20%281%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">NCC A</span><span class="cert-num">08</span></div><h3>NCC A Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NCC%20A%20Cert%20.jpg" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">NCC B</span><span class="cert-num">09</span></div><h3>NCC B Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NCC%20B%20Cert.jpg" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">NCC C</span><span class="cert-num">10</span></div><h3>NCC C Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NCC%20C%20Cert.jpg" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naan Mudhalvan</span><span class="cert-num">11</span></div><h3>Naan Mudhalvan Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NM_Certificate%20%281%29%20%281%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naan Mudhalvan</span><span class="cert-num">12</span></div><h3>Naan Mudhalvan Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NM_Certificate%20%282%29%20%281%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
+   <article class="glass cert-card reveal"><div class="cert-top"><span class="tag">Naan Mudhalvan</span><span class="cert-num">13</span></div><h3>Naan Mudhalvan Certificate</h3><p>Certificate included in my professional learning portfolio.</p><a class="btn" href="https://musthakeem2807.github.io/NM_Certificate%20%283%29.pdf" target="_blank" rel="noopener">View certificate ↗</a></article>
   </div>
  </div>
 </section>
@@ -231,6 +242,10 @@ document.querySelector('.menu')?.addEventListener('click',()=>{
  n.style.position='absolute';n.style.top='62px';n.style.right='0';n.style.flexDirection='column';
  n.style.background='rgba(5,7,18,.95)';n.style.border='1px solid rgba(255,255,255,.11)';n.style.padding='8px';n.style.borderRadius='16px';
 });
+document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>{
+ const n=document.querySelector('.navlinks');
+ if (matchMedia('(max-width:850px)').matches) n.style.display='none';
+}));
 </script>
 
 <script>
